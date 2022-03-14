@@ -7,7 +7,7 @@ export function Gabrielgws(){
     <Center py={[8, 8, 16, 8]} w='100%'>
       <Center>
         <Text mr={2}><RiComputerLine/></Text>
-        <Text>Desenvolvido por <a href='https://www.linkedin.com/in/gabrielgws/' target='_blank'>@gabrielgws</a></Text>
+        <Text>Desenvolvido por <a href='https://www.gabrielgws.com/' target='_blank'>@gabrielgws</a></Text>
       </Center>
     </Center>
   )

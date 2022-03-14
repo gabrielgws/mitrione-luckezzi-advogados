@@ -53,7 +53,7 @@ export default function Contato() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gabrielgws_dev', 'template_jwk298u', form.current, 'user_QKXebMsa5YCY6XeUb9HyP')
+    emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
       .then((result) => {
           console.log(result.text);
       }, (error) => {

@@ -3,4 +3,14 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  exportPathMap: async function (
+    defaultPathMap,
+    { dir, outDir, distDir, buildId }
+  ) {
+    return {
+      '/': { page: '/' },
+      '/lhu': { page: '/lhu' }
+    }
+  },
+}

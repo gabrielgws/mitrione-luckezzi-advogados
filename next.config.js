@@ -4,6 +4,7 @@ const nextConfig = {
 }
 
 module.exports = {
+  trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
     { dir, outDir, distDir, buildId }

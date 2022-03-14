@@ -17,6 +17,40 @@ export default class MyDocument extends Document {
           <meta name="author" content="Mitrione & Luckezzi - Advogados" />
           <meta name="creator" content="@gabrielgws" />
           <meta name="robots" content="index, follow" />
+
+          {/* <!-- Primary Meta Tags - HomePage --> */}
+          <meta name="title" content="Mitrione & Luckezzi - Advogados" />
+          <meta name="description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
+
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://mitrioneluckezziadvogados.com.br/" />
+          <meta property="og:title" content="Mitrione & Luckezzi - Advogados" />
+          <meta property="og:description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
+          <meta property="og:image" content="" />
+
+          {/* <!-- Twitter --> */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://mitrioneluckezziadvogados.com.br/" />
+          <meta property="twitter:title" content="Mitrione & Luckezzi - Advogados" />
+          <meta property="twitter:description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
+          <meta property="twitter:image" content="" />
+
+          {/* <!-- Primary Meta Tags - LHU --> */}
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://mitrioneluckezziadvogados.com.br/lhu/" />
+          <meta property="og:title" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de .css-1dqvvqi{color:var(--chakra-colors-red-650);}Leito Hospitalar com urgência." />
+          <meta property="og:description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
+          <meta property="og:image" content="" />
+
+          {/* <!-- Twitter --> */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://mitrioneluckezziadvogados.com.br/lhu/" />
+          <meta property="twitter:title" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de .css-1dqvvqi{color:var(--chakra-colors-red-650);}Leito Hospitalar com urgência." />
+          <meta property="twitter:description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
+          <meta property="twitter:image" content="" />
+
         </Head>
 
         <body>

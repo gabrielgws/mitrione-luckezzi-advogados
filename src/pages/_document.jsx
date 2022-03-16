@@ -19,6 +19,7 @@ export default class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
 
           {/* <!-- Primary Meta Tags - HomePage --> */}
+          <meta name="google-site-verification" content="XwIfocCzlh12CujSBfjAjdWXmwdI9Doz9GMR6nnchkQ" />
           <meta name="title" content="Mitrione & Luckezzi - Advogados" />
           <meta name="description" content="Assessoria jurídica especializada em demandas que envolvem a necessidade de Leito Hospitalar com urgência." />
 

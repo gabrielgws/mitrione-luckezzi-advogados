@@ -205,7 +205,14 @@ export default function Contato() {
                   {...register('contact_alerts_politic')}
                 />
                 <FormLabel htmlFor='contact_alerts_politic' mb='0'>
-                  Li e aceito os termos de <Text display='inline-block' fontWeight='bold' color='red.650'>Política de Privacidade.</Text>
+                  Li e aceito os termos de <Text
+                  as='a'
+                  target='_blank'
+                  href='/politica_de_privacidade_mitrione&Luckezzi.pdf'
+                  display='inline-block'
+                  fontWeight='bold'
+                  color='red.650'
+                >Política de Privacidade.</Text>
                 </FormLabel>
               </FormControl>  
 

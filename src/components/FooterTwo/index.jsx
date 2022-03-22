@@ -20,7 +20,8 @@ export function FooterTwo(){
               'inline-block']}
             >© todos os direitos reservados</Heading>
           </Flex>
-          <Flex pt={8} flexDirection='column'><Text>OAB/MG 184.211</Text></Flex>
+          <Flex pt={8} flexDirection='column'><Text>CNPJ: 45.633.488/0001-22</Text></Flex>
+          <Flex><Text>Nº Registro OAB: OABMG12436</Text></Flex>
         </Flex>
       </Center>
     </Flex>

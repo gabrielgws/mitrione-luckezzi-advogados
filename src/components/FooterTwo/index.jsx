@@ -11,7 +11,7 @@ export function FooterTwo(){
       >
         <Flex w='100%' align='center' justify='center' flexDirection='column'>
           <Flex flexDirection={['column', 'column', 'column', 'row']} align='center' justify='center'>
-            <Heading as='h1' fontSize='1rem' mr={[0, 8]} mb={[4, 4, 4, 0]}>Mitrione & Luckezzi - Advogados</Heading>
+            <Heading as='h1' align='center' fontSize='1rem' mr={[0, 8]} mb={[4, 4, 4, 0]}>Mitrione e Luckezzi Sociedade de Advogados</Heading>
             <Heading
               as='h1'
               fontSize='1rem'

@@ -5,6 +5,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          
+          {/* <!-- Global site tag (gtag.js) - Google Ads --> */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10841279173" />
+          <script dangerouslySetInnerHTML={{__html:`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10841279173');`}} />
+          
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           
@@ -17,6 +22,14 @@ export default class MyDocument extends Document {
           <meta name="author" content="Mitrione & Luckezzi - Advogados" />
           <meta name="creator" content="@gabrielgws" />
           <meta name="robots" content="index, follow" />
+
+          {/* <!-- Google Tag Manager --> */}
+          <script dangerouslySetInnerHTML={{__html:`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-KMJHQW4');`}} />
+          {/* <!-- End Google Tag Manager --> */}
 
           {/* <!-- Primary Meta Tags - HomePage --> */}
           <meta name="google-site-verification" content="XwIfocCzlh12CujSBfjAjdWXmwdI9Doz9GMR6nnchkQ" />
@@ -55,6 +68,10 @@ export default class MyDocument extends Document {
         </Head>
 
         <body>
+          {/* <!-- Google Tag Manager (noscript) --> */}
+            <noscript dangerouslySetInnerHTML={{ __html:`<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMJHQW4"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
+            {/* <!-- End Google Tag Manager (noscript) --> */}
           <title>Mitrione & Luckezzi - Advogados</title>
           <Main />
           <NextScript />

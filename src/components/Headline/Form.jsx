@@ -5,6 +5,9 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import "yup-phone";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -34,6 +37,16 @@ export default function Form() {
   });
 
   const { errors } = formState;
+
+  const notify = () => toast.success('Enviado com sucesso', {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    });;
 
   const onSubmit = (values) => {
     console.log('Values::::', values);
@@ -138,6 +151,7 @@ export default function Form() {
         </FormControl>
 
         <Button
+          onClick={notify}
           mt={8}
           w='100%'
           colorScheme='teal'
@@ -146,6 +160,19 @@ export default function Form() {
         >
           Enviar
         </Button>
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          />
+          {/* Same as */}
+          <ToastContainer />
       </form>
     </Box>
   );

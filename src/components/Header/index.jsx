@@ -30,7 +30,7 @@ export function Header(props){
       >
         <Center w='100%'>
           <Box boxSize={['8rem', '12rem']}>
-            <Image src="/images/logo.png" alt="Logo - Mitrione & Luckezzi - Advogados" />
+            <Image src="/images/logo.webp" w={['128px', '192px']} h={['128px', '192px']} alt="Logo - Mitrione & Luckezzi - Advogados" />
           </Box>
           <Spacer />
           { isWideVersion && (

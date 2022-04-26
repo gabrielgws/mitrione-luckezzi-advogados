@@ -11,7 +11,8 @@ module.exports = {
   ) {
     return {
       '/': { page: '/' },
-      '/lhu': { page: '/lhu' }
+      '/lhu': { page: '/lhu' },
+      '/dba': { page: '/dba' }
     }
   },
 }

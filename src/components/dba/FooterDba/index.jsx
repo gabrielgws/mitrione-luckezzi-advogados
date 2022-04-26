@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-export function Footer(){
+export function FooterDba(){
   return(
     <Flex w='100%' align='center' justify='center' boxShadow='dark-lg'>
       <Center
@@ -17,7 +17,7 @@ export function Footer(){
       >
         <Flex w='100%' align='center' justify='center' flexDirection='column' color='red.650'>
           <Box boxSize={['12rem', '14rem']}>
-            <Image src='/images/logo.png' alt='Logo' />
+            <Image src='/images/logo.webp' w='500px' alt='Logo' />
           </Box>
 
           <Flex flexDirection='column' align='center' justify='center'>

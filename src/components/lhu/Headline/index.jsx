@@ -9,7 +9,7 @@ export function Headline(){
     <Flex
       w='100%'
       align='center' justify='center'
-      bgImage='/images/leito-hospitalar2-T60.jpg'
+      bgImage='/images/leito-hospitalar2-T60.webp'
       bgPosition="center"
       bgSize='cover'
       bgRepeat="no-repeat"

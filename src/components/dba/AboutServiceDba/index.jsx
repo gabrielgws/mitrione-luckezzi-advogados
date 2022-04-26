@@ -4,13 +4,13 @@ import { BsChatText } from 'react-icons/bs';
 import { RiCustomerService2Line } from 'react-icons/ri';
 import { IoIosPeople } from 'react-icons/io';
 
-export function AboutService(){
+export function AboutServiceDba(){
   return(
     <Flex w='100%' align='center' justify='center'>
     <Flex
       w='100%'
       align='center' justify='center'
-      bgImage='/images/leito-hospitalar3-T60.jpg'
+      bgImage='/images/leito-hospitalar3-T60.webp'
       bgPosition="center"
       bgSize='cover'
       bgRepeat="no-repeat"

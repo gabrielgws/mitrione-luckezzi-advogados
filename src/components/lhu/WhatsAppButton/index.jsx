@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
         height={400}
         avatar='/images/logo-funcoBranco.webp'
         accountName="Mitrione & Luckezzi" statusMessage="Advogados"
-        chatMessage="Olá, agradecemos seu contato. Quais suas dúvidas?"
+        chatMessage="Olá, agradecemos seu contato. Quais suas dúvidas sobre o pedido urgente de leito hospitalar?"
         allowClickAway={true}
         allowEsc={true}
         placeholder="Mensagem"

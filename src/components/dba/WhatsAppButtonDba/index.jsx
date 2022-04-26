@@ -1,7 +1,7 @@
 import FloatingWhatsApp from "react-floating-whatsapp";
 import "react-floating-whatsapp/dist/index";
 
-export default function WhatsAppButton() {
+export default function WhatsAppButtonVab() {
   return (
     <>
       <FloatingWhatsApp
@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
         height={400}
         avatar='/images/logo-funcoBranco.webp'
         accountName="Mitrione & Luckezzi" statusMessage="Advogados"
-        chatMessage="Olá, agradecemos seu contato. Quais suas dúvidas?"
+        chatMessage="Olá, agradecemos seu contato. Quais suas dúvidas sobre o seu veículo apreendido pelo Banco?"
         allowClickAway={true}
         allowEsc={true}
         placeholder="Mensagem"
